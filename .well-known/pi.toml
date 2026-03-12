@@ -1,1 +1,6 @@
+[Pi]
+network="Pi Testnet"
 
+[[tokens]]
+symbol="NLD"
+issuer="GBMZ5W4R7IYTVP6FIN4NT5CUIBETYFKNVXEIQ4XNEDNILUKBLLD6RZNU"
