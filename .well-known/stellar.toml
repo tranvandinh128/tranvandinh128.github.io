@@ -4,10 +4,15 @@ ACCOUNTS=[
 "GBMZ5W4R7IYTVP6FIN4NT5CUIBETYFKNVXEIQ4XNEDNILUKBLLD6RZNU"
 ]
 
+DOCUMENTATION_ORG_NAME="Nhan Lac Do"
+DOCUMENTATION_ORG_URL="https://tranvandinh128.github.io"
+DOCUMENTATION_ORG_LOGO="https://tranvandinh128.github.io/logo.png"
+DOCUMENTATION_ORG_DESCRIPTION="Token NLD used for ecosystem and product payment."
+
 [[CURRENCIES]]
 code="NLD"
 issuer="GBMZ5W4R7IYTVP6FIN4NT5CUIBETYFKNVXEIQ4XNEDNILUKBLLD6RZNU"
 display_decimals=2
 name="Nhan Lac Do Token"
-desc="Token NLD in Pi ecosystem"
+desc="Token used in the Nhan Lac Do ecosystem."
 image="https://tranvandinh128.github.io/logo.png"
