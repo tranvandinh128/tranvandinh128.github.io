@@ -1,18 +1,24 @@
-NETWORK_PASSPHRASE="Pi Testnet"
+NETWORK_PASSPHRASE = "Pi Testnet"
+VERSION = "3.1.4"
 
-ACCOUNTS=[
-"GBMZ5W4R7IYTVP6FIN4NT5CUIBETYFKNVXEIQ4XNEDNILUKBLLD6RZNU"
+[DOCUMENTATION]
+ORG_NAME = "Tran Van Dinh"
+ORG_URL = "https://tranvandinh128.github.io"
+ORG_LOGO = "https://tranvandinh128.github.io/logo.png"
+ORG_DESCRIPTION = "NLD Token ecosystem developed for Pi Network Testnet."
+
+# Official Accounts
+ACCOUNTS = [
+"GBMZ5W4R7IYTVP6FIN4NT5CUIBETYFKNVXEIQ4XNEDNILUKBLLD6RZNU", # Issuer
+"GARC4SECUCG7OMFNJSLCL4LLZMGDY46BEIQQPHO36SNSYLQT3WSVVPUA"  # Distribution
 ]
 
-DOCUMENTATION_ORG_NAME="Nhan Lac Do"
-DOCUMENTATION_ORG_URL="https://tranvandinh128.github.io"
-DOCUMENTATION_ORG_LOGO="https://tranvandinh128.github.io/logo.png"
-DOCUMENTATION_ORG_DESCRIPTION="Token NLD used for ecosystem and product payment."
-
 [[CURRENCIES]]
-code="NLD"
-issuer="GBMZ5W4R7IYTVP6FIN4NT5CUIBETYFKNVXEIQ4XNEDNILUKBLLD6RZNU"
-display_decimals=2
-name="Nhan Lac Do Token"
-desc="Token used in the Nhan Lac Do ecosystem."
-image="https://tranvandinh128.github.io/logo.png"
+code = "NLD"
+issuer = "GBMZ5W4R7IYTVP6FIN4NT5CUIBETYFKNVXEIQ4XNEDNILUKBLLD6RZNU"
+name = "NLD Token"
+desc = "NLD token developed by Tran Van Dinh for commerce and ecosystem applications on Pi Network."
+image = "https://tranvandinh128.github.io/logo.png"
+status = "test"
+display_decimals = 7
+conditions = "Available for Pi Testnet educational and ecosystem purposes."
